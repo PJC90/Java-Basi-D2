@@ -13,13 +13,14 @@ public class esercizio3 {
                 System.out.println("fine, hai messo la q");
                 break;
             }
-
-            System.out.println("caratteri separati:");
             int i = 0;
             while (i < input.length()) {
                 System.out.println(input.charAt(i));
                 i++;
             }
+//            String[] lettere = input.split("");
+//            String risultato = String.join(",", lettere);
+//            System.out.println("caratteri separati:" + risultato);
         }
  scanner.close();
     }
