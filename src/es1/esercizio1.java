@@ -7,7 +7,7 @@ public class esercizio1 {
         boolean isLength = lunghezza(a);
         System.out.println("La lunghezza è pari:" + isLength);
 
-        int year = 2012;
+        int year = 1700;
         boolean isLeap = annoBisestile(year);
         System.out.println(year + " è bisestile? " + isLeap);
     }
